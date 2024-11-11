@@ -498,55 +498,129 @@ class Homepage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(8)),
                       height: 275,
                       width: MediaQuery.sizeOf(context).width - 30,
-                      child: SingleChildScrollView(
-                        scrollDirection: Axis.horizontal,
-                          child: Padding(
-                            padding: EdgeInsets.all(10),
-                            child: Column(
-                              
+                      child: Padding(
+                        padding: EdgeInsets.all(10),
+                        child: Column(
+                          
+                          children: [
+                            Row(
                               children: [
-                                Row(
-                                  children: [
-                                    Container(
-                                        height: 30,
-                                        width: 6,
-                                        decoration: BoxDecoration(
-                                          color: Color.fromRGBO(202,189,255,1),
-                                          borderRadius: BorderRadius.circular(4)
-                                        ),
+                                Container(
+                                    height: 30,
+                                    width: 6,
+                                    decoration: BoxDecoration(
+                                      color: Color.fromRGBO(202,189,255,1),
+                                      borderRadius: BorderRadius.circular(4)
                                     ),
-                                    SizedBox(width: 10),
-                                    Text("Cleaning Services",
-                                    style: GoogleFonts.interTight(fontWeight: FontWeight.w700,fontSize: 20),),
-                                    SizedBox(width: 80),
-                                    Container(
-                                      height: 35,
-                                      width: 83,
-                                      decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(100),
-                                        color: Color.fromRGBO(239, 239,239, 1),
-                                        border: Border.all(width: 0.5)
-                                      ),
-                                      child: Padding(
-                                        padding: const EdgeInsets.only(left: 15),
-                                        child: Row(
-                                          
-                                          children: [
-                                          
-                                            Text("See All",
-                                            style: GoogleFonts.interTight(fontSize: 12,fontWeight: FontWeight.w600),),
-                                            SizedBox(width: 5,),
-                                            Icon(Icons.arrow_forward_ios_outlined,size: 13,)
-                                          ],
-                                        ),
-                                      ),
-                                    )
-                                  ],
+                                ),
+                                SizedBox(width: 10),
+                                Text("Cleaning Services",
+                                style: GoogleFonts.interTight(fontWeight: FontWeight.w700,fontSize: 20),),
+                                SizedBox(width: 80),
+                                Container(
+                                  height: 35,
+                                  width: 83,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
+                                    color: Color.fromRGBO(239, 239,239, 1),
+                                    border: Border.all(width: 0.5)
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.only(left: 15),
+                                    child: Row(
+                                      
+                                      children: [
+                                      
+                                        Text("See All",
+                                        style: GoogleFonts.interTight(fontSize: 12,fontWeight: FontWeight.w600),),
+                                        SizedBox(width: 5,),
+                                        Icon(Icons.arrow_forward_ios_outlined,size: 13,)
+                                      ],
+                                    ),
+                                  ),
                                 )
                               ],
                             ),
-                          ),
-              
+                            SizedBox(
+                              height: 20,
+                            ),
+                            SingleChildScrollView(
+                              scrollDirection: Axis.horizontal,
+                              child: Row(
+                                children: [
+                                  Container(
+                                    height: 190,
+                                    width: 140,
+                                    
+                                    child: Column(
+                                      children: [
+                                        Container(
+                                          height:140 ,
+                                          width: 154,
+                                          child: Image(image: AssetImage("assets/assets/home_page/services/Mask Group_1.png")),
+                                        ),
+                                        SizedBox(
+                                          height: 8,
+                                        ),
+                                        Text("Home Cleaning",
+                                        style: GoogleFonts.interTight(fontWeight: FontWeight.w600,fontSize: 15),)
+                                      ],
+                                    
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    width: 10,
+                                  ),
+                                  Container(
+                                    height: 190,
+                                    width: 140,
+                                    
+                                    child: Column(
+                                      children: [
+                                        Container(
+                                          height:140 ,
+                                          width: 154,
+                                          child: Image(image: AssetImage("assets/assets/home_page/services/Group 34037.png")),
+                                        ),
+                                        SizedBox(
+                                          height: 8,
+                                        ),
+                                        Text("Carpet Cleaning",
+                                        style: GoogleFonts.interTight(fontWeight: FontWeight.w600,fontSize: 15),)
+                                      ],
+                                    
+                                    ),
+                                    
+                                  ),
+                                  SizedBox(
+                                    width: 10,
+                                  ),
+                                  Container(
+                                    height: 190,
+                                    width: 140,
+                                    
+                                    child: Column(
+                                      children: [
+                                        Container(
+                                          height:140 ,
+                                          width: 154,
+                                          child: Image(image: AssetImage("assets/assets/home_page/services/Mask Group.png")),
+                                        ),
+                                        SizedBox(
+                                          height: 8,
+                                        ),
+                                        Text("AC Cleaning",
+                                        style: GoogleFonts.interTight(fontWeight: FontWeight.w600,fontSize: 15),)
+                                      ],
+                                    
+                                    ),
+                                    
+                                  )
+                                ],
+                              ),
+                            )
+                          ],
+                        ),
                       )))
                         ],
                       ),

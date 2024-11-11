@@ -86,7 +86,7 @@ class _Page3State extends State<Page3> {
                     ),
                   ],
                 ),
-                SizedBox(height: 50),
+                
                 SizedBox(
                   height: 90,
                   width: 300,
@@ -94,9 +94,13 @@ class _Page3State extends State<Page3> {
                   textAlign: TextAlign.center ,
                   style: GoogleFonts.interTight(fontWeight: FontWeight.bold,fontSize: 32),),
                 ),
-                SizedBox(height: 30,),
+                 SizedBox(height: 10),
+                SizedBox(
+                  width: MediaQuery.sizeOf(context).width-30,
+                  child: Text(textAlign: TextAlign.center,"Experience a spotless home with professional cleaning services at your doorstep.",style: GoogleFonts.interTight(fontSize: 15,fontWeight: FontWeight.w400),),
+                ),
                 
-                SizedBox(height: 30,),
+                SizedBox(height: 100),
                 
                 
               ],

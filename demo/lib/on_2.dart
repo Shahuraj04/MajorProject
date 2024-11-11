@@ -86,18 +86,22 @@ class _Page2State extends State<Page2> {
                     ),
                   ],
                 ),
-                SizedBox(height: 50,),
-                SizedBox(
+                
+                Container(
+                  alignment: Alignment(0,0.1),
                   height: 90,
                   width: 300,
                   child: Text("Plumber & expert nearby you",
                   textAlign: TextAlign.center ,
                   style: GoogleFonts.interTight(fontWeight: FontWeight.bold,fontSize: 32),),
                 ),
-                SizedBox(height: 30,),
+                SizedBox(height: 10),
+                SizedBox(
+                  width: MediaQuery.sizeOf(context).width-30,
+                  child: Text(textAlign: TextAlign.center,"Find trusted plumbers and experts near you for quick and reliable service.",style: GoogleFonts.interTight(fontSize: 15,fontWeight: FontWeight.w400),),
+                ),
                 
-                SizedBox(height: 30,),
-                
+                SizedBox(height: 100),                
                 
               ],
             ),
