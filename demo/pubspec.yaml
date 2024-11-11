@@ -1,0 +1,42 @@
+name: demo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_onboarding_slider: ^1.0.2 # Ensure this is the latest version
+  google_fonts: any
+  smooth_page_indicator: ^1.2.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/assets/Group 34487.png
+    - assets/assets/Group 34489 (1).png
+    - assets/assets/image1.png
+    - assets/assets/Mask Group.png
+    - assets/assets/Mask Group_1.png
+    - assets/assets/Group 34487 (1).png
+    - assets/assets/Group 34489 (2).png
+    - assets/assets/Group 34487 (2).png
+    - assets/assets/Group 34489 (3).png
+    - assets/assets/image.png
+    - assets/assets/image_2.png
+    - assets/assets/image_3.png
+    - assets/assets/home_page/icon.png
+    - assets/assets/home_page/Badge.png
+    - assets/assets/home_page/image.png
+    - assets/assets/home_page/services/Group 34246.png
+    - assets/assets/home_page/services/Group 34257.png
+    - assets/assets/home_page/services/Group 34258.png

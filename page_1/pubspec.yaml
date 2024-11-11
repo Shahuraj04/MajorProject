@@ -1,0 +1,31 @@
+name: page_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_onboarding_slider: ^1.0.2
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/assets/Group 34487.png
+    - assets/assets/Group 34489 (1).png
+    - assets/assets/image1.png
+    - assets/assets/Home.png
+    - assets/assets/Icon- Outline.png
+    - assets/assets/Notification.png
+    - assets/assets/Menu.png
+    
